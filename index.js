@@ -24,7 +24,7 @@ $(document).ready(function(){
         $(this).addClass("active");
     
         var type = $(this).attr("data-type");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=zROU2FgTlDUruJ8JbUnVUQaUeCC3rfhZ&q=pisik&limit";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=zROU2FgTlDUruJ8JbUnVUQaUeCC3rfhZ&q=pisik&limit";
     
         $.ajax({
           url: queryURL,
